@@ -7,3 +7,12 @@ In simpler terms, anything before GO is sent */
 
 USE SchoolDB;
 GO
+
+/* The statment above will switch to the School database*/
+
+CREATE SCHEMA main;
+GO
+
+/* The Above statment is a DDL statment that creates a SCHEMA which is a logical grouping of database objects
+e.g. tables, views. The schema is called main. 
+This statments must be followed by go since it must be the only statment in the batch, */
